@@ -1,1 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Meal For Your Ingredients</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+  
+  <!-- header section starts      -->
 
+<header class="top">
+
+  <a href="#" class="logo"><i class="fas fa-utensils"></i> Food recipes</a>
+
+  <nav class="navbar">
+      <a class="active" href="#container">home</a>
+      <a href="# reveiw">review</a>
+      <a href="#about">about</a>
+      <a href="#menu">menu</a>
+      <a href="#goo">contact</a>
+     
+  </nav>
+
+  <div class="icons">
+      <i class="fas fa-bars" id="menu-bars"></i>
+     
+      <a href="#" class="fas fa-heart"></a>
+      <a href="#" class="fas fa-user"></a>
+  </div>
+
+</header>
+
+<!-- header section ends-->
+
+  <div class = "container" id="container">
+    <div class = "meal-wrapper">
+      <div class = "meal-search">
+        <h2 class = "title">Find Meals For Your Ingredients</h2>
+        <blockquote>Real food doesn't have ingredients, real food is ingredients.<br>
+          <br>
+        </blockquote>
+
+        <div class = "meal-search-box">
+          <input type = "text" class = "search-control" placeholder="Enter an ingredient" id = "search-input">
+          <button type = "submit" class = "search-btn btn" id = "search-btn">
+            <i class = "fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class = "meal-result">
+        <h2 class = "title">Your Search Results:</h2>
+        <div id= "meal">
+
+        </div>
+      </div>
+
+
+      <div class = "meal-details">
+        <!-- recipe close btn -->
+        <button type = "button" class = "btn recipe-close-btn" id = "recipe-close-btn">
+          <i class = "fas fa-times"></i>
+        </button>
+
+        <!-- meal content -->
+        <div class = "meal-details-content">
+       
+        </div>
+      </div>
+    </div>
+
+    <section class="about" id="about">
+<div>
+      <h1>About Us</h1>
+      <br>
+
+      <p>FOOD RECIPES  is one website that you ought to visit if you enjoy visually appealing recipes.
+         The site features outstanding video recipes that carefully crafted with savory 
+        ingredients that are tantalizing and mouth-watering. With the standout 
+        quality and simplicity of its recipes.</p>
+    </div>
+    <br>
+    <h2 style="text-align:center">Top Recipes</h2>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="https://github.com/Gourav2001kumar/foodrecipes.github.io/blob/main/dish-1.png?raw=true" alt="Jane" style="width:100%">
+          <div class="container">
+            <h2> Burger</h2>
+            <p class="title">
+              Whip up this sweet and tangy Thousand Island Dressing
+               and make your own McDonald’s style and minced Big Mac.
+            </p>
+            
+          <a  class="link" href="https://www.simplyrecipes.com/recipes/buffalo_burger/" target="_blank"> get recipes</a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="column">
+        <div class="card">
+          <img src="https://github.com/Gourav2001kumar/foodrecipes.github.io/blob/main/dish-3.png?raw=true" alt="Mike" style="width:100%">
+          <div class="container">
+            <h2>Chicken </h2>
+            <p class="title">Chicken cacciatore is an Italian dish 
+              of chicken braised in a tomato-based sauce and often includes 
+              wild mushrooms. </p>
+          <a  class="link" href="https://www.simplyrecipes.com/search?q=chicken" target="_blank">get recipes</a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="column">
+        <div class="card">
+          <img src="https://github.com/Gourav2001kumar/foodrecipes.github.io/blob/main/dish-4.png?raw=true" alt="Mike" style="width:100%">
+          <div class="container">
+            <h2>Pizza</h2>
+            <p class="title">What is special about pizza?
+              Humans are drawn to foods that are fatty and complex.
+               Pizza has all of these components.  </p>
+          <a class="link" href="https://www.simplyrecipes.com/recipes/homemade_pizza/" target="_blank">get recipes</a>
+          </div>
+        </div>
+      </div>
+  </section>
+  </div>
+
+<!-- footer section starts  -->
+
+<div class="footer-basic " id="goo">
+  <footer>
+      <div class="social">
+        <a><i class="fab fa-instagram"></i></a>
+        <a> <i class="fab fa-facebook-f"></i></a>
+        <a ><i class="fab fa-twitter"></i></a>
+        <a><i class="fab fa-linkedin"></i></a>
+      </div>
+      <ul class="list-inline">
+          <li class="list-inline-item"><a href="#container">Home</a></li>
+          <li class="list-inline-item"><a href="#about">About</a></li>
+          <li class="list-inline-item"><a href="#">Terms</a></li>
+          <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+      </ul>
+      <p class="copyright">© 2024 FoodRecipes.Sourav Kumar </p>
+  </footer>
+</div>
+
+  <script src = "script.js"></script>
+</body>
+</html>
